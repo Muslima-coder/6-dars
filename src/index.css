@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.active{
+    color: purple;
+    transition: all 0.4s;
+}
+
+body{
+    background-image: linear-gradient(violet, pink);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.teachers-card{
+    background-image: linear-gradient(blue, rgb(165, 40, 40));
+}
+.students-card{
+    background-image: linear-gradient(rgb(240, 240, 90), rgb(245, 189, 85));
+}
